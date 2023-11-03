@@ -9,6 +9,7 @@
             "type": "ocaml.earlybird",
             "request": "launch",
             "program": "${workspaceFolder}/_build/default/bin/main.bc",
+            "arguments": [],
             "cwd": "${fileDirname}",
             "stopOnEntry": false,
             "preLaunchTask": "OCaml: Dune build debug binary"
