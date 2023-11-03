@@ -35,7 +35,7 @@ Here, the setup may differ depending on the language version, check with:
 dune --version
 ```
 
-For versions 3.7 and above, you need to add the following (which has been done for this repository, as I have dune version 3.11) to your ```dune-project``` file in the root folder of the project:
+For versions 3 and above, you need to add the following (which has been done for this repository, as I have dune version 3.11) to your ```dune-project``` file in the root folder of the project:
 
 ```
 (map_workspace_root false)
@@ -136,6 +136,8 @@ eval $(opam env)
 ```
 
 in the spawned terminal for debugging, in case it is not configured that way already.
+
+Start the debugging with ```Run->Start Debugging``` button or by pressing the ```F5``` hotkey.
 
 ### Comments for when debugging
 
