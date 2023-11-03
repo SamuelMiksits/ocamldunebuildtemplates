@@ -1,0 +1,30 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "OCaml: Dune build and run active project",
+            "command": "eval $(opam env) && dune build && dune exec ${workspaceFolderBasename}",
+            "args": [],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build and run OCaml"
+        },
+        {
+            "type": "shell",
+            "label": "OCaml: Dune build debug binary",
+            "command": "eval $(opam env) && dune build main.bc",
+            "args": [],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "detail": "Build OCaml Bytecode"
+        },
+
+    ],
+    "version": "2.0.0"
+}

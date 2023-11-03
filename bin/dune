@@ -1,0 +1,5 @@
+(executable
+ (public_name ocamldunebuildtemplates)
+ (name main)
+ (libraries ocamldunebuildtemplates)
+ (modes byte exe))
